@@ -1,0 +1,287 @@
+body{
+	color: #222;
+	font-family: 'Helvetica';
+	font-size: 11px;
+	background: #eee;
+}
+
+a {
+	text-decoration: none;
+	color: #008080;
+}
+
+a:hover {
+	color: #ccc;
+}
+textarea{
+	resize: none;
+	font-family: 'Helvetica';
+	font-size: 11px;
+}
+.alert-login {
+	margin: 10px auto;
+	width: 300px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.alert-login p {
+	padding: 5px;
+	margin: 0px;
+}
+.gagal {
+	color: #ff3232;
+}
+.sukses {
+	color: #329932;
+}	
+.form-login {
+	margin:10px auto;
+	width: 300px;	
+	border: 1px solid #ccc;
+	
+}
+.header-login {
+	margin: 0px;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	background: linear-gradient(#008080, #329999, #008080);
+}
+.header-login img {
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.header-login h4 {
+	margin:0;
+	padding: 5px;
+	color: #fff;
+}
+.content-login {
+	background: #fff;
+}
+.input-text {
+	padding:2px;
+	color: #222;
+	font-family: 'Helvetica';
+	font-size: 11px;
+	min-width: 170px;
+}
+.input-btn {
+	padding: 2px 5px 2px 5px;
+	color: #222;
+	font-family: 'Helvetica';
+	font-size: 11px;
+}
+.copy-login {
+	margin:10px auto;
+	width:300px;
+	text-align: right;
+}
+
+/* dashboard */
+.container {
+	margin: 0px auto;
+	width: 950px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.header {
+	background:linear-gradient(#008080, #329999, #008080);
+	height: 30px;
+	position: relative;
+}
+.brand-text {
+	margin: 0px;
+	padding: 6.5px;
+	font-size: 15px;
+	color: #fff;
+	float: left;
+	text-shadow: 1px 1px 2px #222;
+}
+
+.nav-right {
+	float: right;
+	margin: 0px;
+	height: 30px;
+
+}
+.nav-right img {
+	height: 11px;
+
+}
+.nav-right a {
+	color: #fff;
+	padding: 8px;
+	display: inline-block;
+	text-shadow: 1px 1px 2px #222;
+
+}
+.nav-right a:hover{
+	color: #dddddd;
+}
+.main {
+	min-height: 550px;
+	background-color: #fff;
+}
+.sidebar {
+	width: 150px;
+	padding: 10px;
+	float: left;
+}
+
+.menu {
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.menu-header {
+	padding: 0px;
+}
+.menu h4 {
+	padding: 5px;
+	background: linear-gradient(#008080, #329999, #008080);
+	margin: 0px;
+	text-align: center;
+	color: 	#fff;
+	text-shadow: 1px 1px 2px #000;
+}
+.menu-content {
+	padding: 0px;
+}
+.menu-content li {
+	padding: 1px;
+}
+.menu-content ul{
+	margin: 0px;
+	padding: 5px 5px 5px 20px;
+}
+
+.content {
+	width: 590px;
+	padding: 10px;
+	float: left;
+}
+
+.breadcrumb {
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.breadcrumb li {
+	display: inline;
+}
+
+.alert {
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.alert p {
+	padding: 5px;
+	margin: 0px;
+}
+
+.form-input {
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;	
+	background-color: #fff;
+}
+.form-input-header {
+	padding: 0px;
+}
+.form-input-header h4 {
+	padding: 5px;
+	background: linear-gradient(#008080, #329999, #008080);
+	margin: 0px;
+	color: 	#fff;
+	text-shadow: 1px 1px 2px #000;
+}
+.form-input-content {
+	padding: 5px;
+	
+}
+
+.table {
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;	
+}
+.table h4 {
+	padding: 5px;
+	background: linear-gradient(#008080, #329999, #008080);
+	margin: 0px;
+	color: 	#fff;
+	text-shadow: 1px 1px 2px #000;
+}
+.table-content {
+	padding: 5px;
+	background: #fff;
+}
+table {
+	border-collapse: collapse;
+}
+.form-cari {
+	padding: 5px 0px 5px 5px;
+	float:right;
+}
+.table-saya {
+	width: 100%;
+	background-color: #fff;
+}
+.table-saya, .table-saya td, .table-saya th {
+	border: 1px dotted #aaa;
+	padding: 3px;
+}
+.table-saya th {
+	background: linear-gradient(#ccc, #eee, #ccc);
+}
+.table-saya img {
+	height: 15px;
+}
+
+.pagination {
+	margin-top: 5px;
+	padding: 2px 0px 2px 0px;
+}
+.pagination li {
+	list-style: none;
+	display: inline;
+	margin-right:1px;
+}
+.pagination a {
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #ccc;
+	background:#fff;
+}
+
+.sidebar2 {
+	width: 150px;
+	padding: 10px;
+	float:right;
+}
+
+.footer {
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer p {
+	margin: 0px;
+	padding: 10px;
+	text-align: right;
+}
+
+.kiri {
+	float: left;
+}
+.padding-5 {
+	padding: 5px;
+}
