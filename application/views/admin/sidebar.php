@@ -9,7 +9,7 @@
 							<li><a href="<?php echo site_url('kategori') ?>">Kategori</a></li>
 							<li><a href="">Barang</a></li>
 							<li><a href="<?php echo site_url('supplier'); ?>">Supplier</a></li>
-							<li><a href="">Users</a></li>
+							<li><a href="<?php echo site_url('users'); ?>">Users</a></li>
 						</ul>
 					</div>
 				</div>
