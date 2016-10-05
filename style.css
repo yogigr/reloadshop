@@ -81,7 +81,7 @@ textarea{
 /* dashboard */
 .container {
 	margin: 0px auto;
-	width: 950px;
+	width: 1200px;
 	border: 1px solid #ccc;
 	background-color: #fff;
 }
@@ -125,7 +125,7 @@ textarea{
 	background-color: #fff;
 }
 .sidebar {
-	width: 150px;
+	width: 200px;
 	padding: 10px;
 	float: left;
 }
@@ -160,7 +160,7 @@ textarea{
 }
 
 .content {
-	width: 590px;
+	width: 740px;
 	padding: 10px;
 	float: left;
 }
@@ -263,7 +263,7 @@ table {
 }
 
 .sidebar2 {
-	width: 150px;
+	width: 200px;
 	padding: 10px;
 	float:right;
 }
