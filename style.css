@@ -7,7 +7,9 @@ body{
 
 a {
 	text-decoration: none;
-	color: #008080;
+	color: #FF0000;
+	
+	
 }
 
 a:hover {
@@ -31,10 +33,10 @@ textarea{
 	margin: 0px;
 }
 .gagal {
-	color: #ff3232;
+	color: #FF0000;
 }
 .sukses {
-	color: #329932;
+	color: #0000FF;
 }	
 .form-login {
 	margin:10px auto;
@@ -46,7 +48,7 @@ textarea{
 	margin: 0px;
 	padding: 5px;
 	border-bottom: 1px solid #ccc;
-	background: linear-gradient(#008080, #329999, #008080);
+	background: linear-gradient(#333, #555, #333);
 }
 .header-login img {
 	float: left;
@@ -89,7 +91,7 @@ textarea{
 }
 
 .header {
-	background:linear-gradient(#008080, #329999, #008080);
+	background:linear-gradient(#333, #555, #333);
 	height: 30px;
 	position: relative;
 }
@@ -144,7 +146,7 @@ textarea{
 }
 .menu h4 {
 	padding: 5px;
-	background: linear-gradient(#008080, #329999, #008080);
+	background: #333;
 	margin: 0px;
 	text-align: center;
 	color: 	#fff;
@@ -165,6 +167,8 @@ textarea{
 	width: 740px;
 	padding: 10px;
 	float: left;
+	box-shadow: 0px 1px 5px #333;
+	margin-top: 10px;
 }
 
 .breadcrumb {
@@ -200,7 +204,7 @@ textarea{
 }
 .form-input-header h4 {
 	padding: 5px;
-	background: linear-gradient(#008080, #329999, #008080);
+	background: #333;
 	margin: 0px;
 	color: 	#fff;
 	text-shadow: 1px 1px 2px #000;
@@ -218,7 +222,7 @@ textarea{
 }
 .table h4 {
 	padding: 5px;
-	background: linear-gradient(#008080, #329999, #008080);
+	background: #333;
 	margin: 0px;
 	color: 	#fff;
 	text-shadow: 1px 1px 2px #000;
@@ -249,7 +253,7 @@ table {
 }
 
 .table-saya tr:hover {
-	background-color: #add6d6;
+	background-color: #eee;
 }
 .table-saya img {
 	height: 15px;
