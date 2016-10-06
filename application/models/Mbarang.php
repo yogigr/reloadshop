@@ -71,4 +71,22 @@ class Mbarang extends CI_Model
 		$query = $this->db->get('tbarang');
 		return $query->result_array();
 	}
+
+	public function detail($id)
+	{
+		$query = $this->db->query("select * from tbarang where id_barang ='".$id."'");
+		return $query->row_array();
+	}
+
+	public function update_data($id, $data=array())
+	{
+		$this->db->where('id_barang', $id);
+		$this->db->update('tbarang', $data);
+	}
+
+	public function delete_data($id)
+	{
+		$this->db->where('id_barang', $id);
+		$this->db->delete('tbarang');
+	}
 }

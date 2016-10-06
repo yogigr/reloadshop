@@ -115,4 +115,50 @@ class Barang extends CI_Controller
 		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
+
+	public function edit($id)
+	{
+		$data['induk'] = 'Barang' ;
+		$data['title'] = 'Edit Barang';
+		$data['barang'] = $this->mbarang->detail($id);
+		$data['kategoris'] = $this->mkategori->lihat_semua_data();
+		
+
+
+		$this->form_validation->set_rules('kode_barang', 'Kode Barang', 'required');
+		$this->form_validation->set_rules('nama_barang', 'Nama Barang', 'required');
+		$this->form_validation->set_rules('kategori', 'Kategori', 'required');
+
+		if ($this->form_validation->run() === FALSE) {
+			$this->load->view('admin/header', $data);
+			$this->load->view('admin/sidebar');
+			$this->load->view('barang/form-edit', $data);
+			$this->load->view('admin/sidebar2');
+			$this->load->view('admin/footer');
+		} else {
+			$edit = array(
+				'kode_barang' =>$this->input->post('kode_barang'),
+				'nama_barang' =>$this->input->post('nama_barang'),
+				'kategori' =>$this->input->post('kategori'),
+				'stok' =>$this->input->post('stok'),
+				'harga_beli' =>$this->input->post('harga_beli'),
+				'harga_jual' => $this->input->post('harga_jual')
+			);
+
+			$this->mbarang->update_data($id, $edit);
+			# session massage berhasil
+			$this->session->set_userdata('berhasil', 'Berhasil Mengupdate barang');
+			redirect('barang');
+		}
+	}
+
+	public function delete($id)
+	{
+		$this->mbarang->delete_data($id);
+		$berhasil = "Berhasil delete Barang";
+
+		# set session
+		$this->session->set_userdata('berhasil', $berhasil);
+		redirect('barang');
+	}
 }
