@@ -2,12 +2,12 @@ body{
 	color: #222;
 	font-family: 'Helvetica';
 	font-size: 11px;
-	background: #eee;
+	background:#FFCC66;
 }
 
 a {
 	text-decoration: none;
-	color: #FF0000;
+	color: #003366;
 	
 	
 }
@@ -25,7 +25,7 @@ textarea{
 .alert-login {
 	margin: 10px auto;
 	width: 300px;
-	border: 1px solid #ccc;
+	box-shadow: 0px 1px 5px #000;
 	background: #fff;
 }
 .alert-login p {
@@ -36,19 +36,19 @@ textarea{
 	color: #FF0000;
 }
 .sukses {
-	color: #0000FF;
+	color: #336699;
 }	
 .form-login {
 	margin:10px auto;
 	width: 300px;	
-	border: 1px solid #ccc;
 	
+	box-shadow: 0px 1px 5px #000;
 }
 .header-login {
 	margin: 0px;
 	padding: 5px;
-	border-bottom: 1px solid #ccc;
-	background: linear-gradient(#333, #555, #333);
+	border-bottom: 1px solid #336699;
+	background: linear-gradient(#003366, #336699, #003366);
 }
 .header-login img {
 	float: left;
@@ -86,12 +86,13 @@ textarea{
 .container {
 	margin: 0px auto;
 	width: 1200px;
-	border: 1px solid #ccc;
+	/*border: 1px solid #336699;*/
 	background-color: #fff;
+	box-shadow: 0px 1px 5px #000;
 }
 
 .header {
-	background:linear-gradient(#333, #555, #333);
+	background:linear-gradient(#003366, #336699, #003366);
 	height: 30px;
 	position: relative;
 }
@@ -137,7 +138,7 @@ textarea{
 .menu {
 	padding: 0px;
 	margin: 0px;
-	border: 1px solid #ccc;
+	border: 1px solid #336699;
 	margin-bottom: 10px;
 	background-color: #fff;
 }
@@ -146,7 +147,7 @@ textarea{
 }
 .menu h4 {
 	padding: 5px;
-	background: #333;
+	background: #336699;
 	margin: 0px;
 	text-align: center;
 	color: 	#fff;
@@ -174,7 +175,7 @@ textarea{
 .breadcrumb {
 	padding: 5px;
 	margin: 0px;
-	border: 1px solid #ccc;
+	border: 1px solid #336699;
 	margin-bottom: 10px;
 	background: #fff;
 }
@@ -195,7 +196,7 @@ textarea{
 .form-input {
 	padding: 0px;
 	margin: 0px;
-	border: 1px solid #ccc;
+	border: 1px solid #336699;
 	margin-bottom: 10px;	
 	background-color: #fff;
 }
@@ -204,7 +205,7 @@ textarea{
 }
 .form-input-header h4 {
 	padding: 5px;
-	background: #333;
+	background: #336699;
 	margin: 0px;
 	color: 	#fff;
 	text-shadow: 1px 1px 2px #000;
@@ -217,12 +218,12 @@ textarea{
 .table {
 	padding: 0px;
 	margin: 0px;
-	border: 1px solid #ccc;
+	border: 1px solid #336699;
 	margin-bottom: 10px;	
 }
 .table h4 {
 	padding: 5px;
-	background: #333;
+	background: #336699;
 	margin: 0px;
 	color: 	#fff;
 	text-shadow: 1px 1px 2px #000;
@@ -270,7 +271,7 @@ table {
 }
 .pagination a {
 	padding: 2px 5px 2px 5px;
-	border: 1px solid #ccc;
+	border: 1px solid #336699;
 	background:#fff;
 }
 
