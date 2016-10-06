@@ -26,14 +26,14 @@
 		<form method="post" action="<?php echo site_url('kategori/insert'); ?>">
 			<table>
 				<tr>
-					<td><label>Nama Kategori</label></td>
-				</tr>
-				<tr>
+					<td><label>Nama Kategori</label>&nbsp;&nbsp;</td>
 					<td>
 						<input type="text" name="nama_kategori" class="input-text" placeholder="Nama Kategori" autocomplete="off">
 					</td>
 				</tr>
+				
 				<tr>
+					<td></td>
 					<td>
 						<input type="submit" name="submit" value="Tambah" class="input-btn">
 					</td>

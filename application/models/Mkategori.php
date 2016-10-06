@@ -28,7 +28,7 @@ class Mkategori extends CI_Model
 	public function tambah_data()
 	{
 		$data = array(
-			'nama_kategori' => $this->input->post('nama_kategori')
+			'nama_kategori' => $this->input->post('nama_kategori'),
 		);
 
 		$this->db->insert('tkategori', $data);
@@ -69,4 +69,11 @@ class Mkategori extends CI_Model
 		$this->db->where('id_kategori', $id);
 		$this->db->delete('tkategori');
 	}
+
+	public function lihat_Semua_data()
+	{
+		$query = $this->db->query("select * from tkategori order by nama_kategori asc");
+		return $query->result_array();
+	}
+
 }

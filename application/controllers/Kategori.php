@@ -64,6 +64,7 @@ class Kategori extends CI_Controller
 		
 
 		$this->form_validation->set_rules('nama_kategori', 'Nama Kategori', 'required|is_unique[tkategori.nama_kategori]');
+		
 
 		if ($this->form_validation->run() === FALSE) {
 			$this->load->view('admin/header', $data);
@@ -92,7 +93,7 @@ class Kategori extends CI_Controller
 			# set session keyword
 			$this->session->set_tempdata('keyword', $keyword, 30);
 		} else {
-			$keyword = $this->session->userdata('keyword');
+			$keyword = $this->session->tempdata('keyword');
 		}
 
 		$jumlah_data = $this->mkategori->jumlah_data_cari($keyword);
@@ -122,7 +123,7 @@ class Kategori extends CI_Controller
 		$data['kategori'] = $this->mkategori->detail($id);
 
 		$this->form_validation->set_rules('nama_kategori', 'Nama Kategori', 'required');
-
+		
 		if ($this->form_validation->run() === FALSE) {
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');

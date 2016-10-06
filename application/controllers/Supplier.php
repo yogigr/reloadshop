@@ -84,7 +84,7 @@ class Supplier extends CI_Controller
 			# set session keyword
 			$this->session->set_tempdata('keyword', $keyword, 30);
 		} else {
-			$keyword = $this->session->userdata('keyword');
+			$keyword = $this->session->tempdata('keyword');
 		}
 
 		$jumlah_data = $this->msupplier->jumlah_data_cari($keyword);

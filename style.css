@@ -18,6 +18,8 @@ textarea{
 	font-family: 'Helvetica';
 	font-size: 11px;
 }
+
+
 .alert-login {
 	margin: 10px auto;
 	width: 300px;
@@ -224,6 +226,8 @@ textarea{
 .table-content {
 	padding: 5px;
 	background: #fff;
+	max-height: 400px;
+    overflow: auto;
 }
 table {
 	border-collapse: collapse;
@@ -242,6 +246,10 @@ table {
 }
 .table-saya th {
 	background: linear-gradient(#ccc, #eee, #ccc);
+}
+
+.table-saya tr:hover {
+	background-color: #add6d6;
 }
 .table-saya img {
 	height: 15px;
@@ -284,4 +292,12 @@ table {
 }
 .padding-5 {
 	padding: 5px;
+}
+
+.select-text {
+	width: 178px;
+	padding:2px;
+	color: #222;
+	font-family: 'Helvetica';
+	font-size: 11px;
 }

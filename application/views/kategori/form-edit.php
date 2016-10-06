@@ -27,13 +27,13 @@
 			<table>
 				<tr>
 					<td><label>Nama Kategori</label></td>
-				</tr>
-				<tr>
 					<td>
 						<input type="text" name="nama_kategori" value="<?php echo ucwords($kategori['nama_kategori']); ?>" class="input-text" placeholder="Nama Kategori" autocomplete="off">
 					</td>
 				</tr>
+				
 				<tr>
+					<td></td>
 					<td>
 						<input type="submit" name="submit" value="Update" class="input-btn">
 					</td>
