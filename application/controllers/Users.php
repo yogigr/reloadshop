@@ -42,7 +42,6 @@ class Users extends CI_Controller
 		$this->load->view('admin/header', $data);
 		$this->load->view('admin/sidebar');
 		$this->load->view('users/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -63,7 +62,6 @@ class Users extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('users/form-insert');
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$insert = array(
@@ -109,7 +107,6 @@ class Users extends CI_Controller
 		$this->load->view('admin/header', $data);
 		$this->load->view('admin/sidebar');
 		$this->load->view('users/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -129,7 +126,6 @@ class Users extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('users/form-edit', $data);
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$this->musers->update_data($id);

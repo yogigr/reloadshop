@@ -26,8 +26,7 @@ class Admin extends CI_Controller
 		$data['induk'] = 'Admin';
 		$data['title'] = 'Dashboard';
 		$this->load->view('admin/header', $data);
-		$this->load->view('admin/sidebar');
-		$this->load->view('admin/sidebar2');	
+		$this->load->view('admin/sidebar');	
 		$this->load->view('admin/footer');
 	}
 

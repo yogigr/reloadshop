@@ -43,7 +43,6 @@ class Barang extends CI_Controller
 		$this->load->view('admin/header', $data);
 		$this->load->view('admin/sidebar');
 		$this->load->view('barang/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -67,7 +66,6 @@ class Barang extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('barang/form-insert', $data);
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$insert = array(
@@ -112,7 +110,6 @@ class Barang extends CI_Controller
 		$this->load->view('admin/header', $data);
 		$this->load->view('admin/sidebar');
 		$this->load->view('barang/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -133,7 +130,6 @@ class Barang extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('barang/form-edit', $data);
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$edit = array(

@@ -42,7 +42,6 @@ class Kategori extends CI_Controller
 		$this->load->view('admin/sidebar');
 		$this->load->view('kategori/form-insert');
 		$this->load->view('kategori/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -71,7 +70,6 @@ class Kategori extends CI_Controller
 			$this->load->view('admin/sidebar');
 			$this->load->view('kategori/form-insert');
 			$this->load->view('kategori/table', $data);
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$this->mkategori->tambah_data();
@@ -112,7 +110,6 @@ class Kategori extends CI_Controller
 		$this->load->view('admin/sidebar');
 		$this->load->view('kategori/form-insert');
 		$this->load->view('kategori/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -128,7 +125,6 @@ class Kategori extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('kategori/form-edit', $data);
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$this->mkategori->update_data($id);

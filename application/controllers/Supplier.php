@@ -42,7 +42,6 @@ class Supplier extends CI_Controller
 		$this->load->view('admin/header', $data);
 		$this->load->view('admin/sidebar');
 		$this->load->view('supplier/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -59,7 +58,6 @@ class Supplier extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('supplier/form-insert');
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$insert = array(
@@ -102,7 +100,6 @@ class Supplier extends CI_Controller
 		$this->load->view('admin/header', $data);
 		$this->load->view('admin/sidebar');
 		$this->load->view('supplier/table', $data);
-		$this->load->view('admin/sidebar2');
 		$this->load->view('admin/footer');
 	}
 
@@ -120,7 +117,6 @@ class Supplier extends CI_Controller
 			$this->load->view('admin/header', $data);
 			$this->load->view('admin/sidebar');
 			$this->load->view('supplier/form-edit', $data);
-			$this->load->view('admin/sidebar2');
 			$this->load->view('admin/footer');
 		} else {
 			$this->msupplier->update_data($id);
