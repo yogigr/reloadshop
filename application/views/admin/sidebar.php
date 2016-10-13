@@ -19,7 +19,7 @@
 					</div>
 					<div class="menu-content">
 						<ul>
-							<li><a href="">Pembelian</a></li>
+							<li><a href="<?php echo site_url('pembelian'); ?>">Pembelian</a></li>
 							<li><a href="">Penjualan</a></li>
 						</ul>
 					</div>

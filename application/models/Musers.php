@@ -17,6 +17,12 @@ class Musers extends CI_Model
 		return $query->num_rows();
 	}
 
+
+	public function lihat_semua_data()
+	{
+		return $this->db->get('tusers')->result_array();
+	}
+
 	public function lihat_data($perpage, $dari)
 	{
 		$this->db->order_by('id_user', 'DESC');

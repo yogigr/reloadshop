@@ -54,10 +54,10 @@
 						<td><?php echo ucwords($supplier['alamat']); ?></td>
 						<td style="text-align: center">
 							<a href="<?php echo site_url('supplier/edit/'.$supplier['id_supplier']); ?>">
-								<img src="<?php echo base_url('images/edit.png') ?>">
+								<img src="<?php echo base_url('assets/images/edit.png') ?>">
 							</a>
 							<a href="<?php echo site_url('supplier/delete/'.$supplier['id_supplier']); ?>" onclick="return confirm('yakin hapus data?');">
-								<img src="<?php echo base_url('images/hapus.png'); ?>">
+								<img src="<?php echo base_url('assets/images/hapus.png'); ?>">
 							</a>
 						</td>
 					</tr>

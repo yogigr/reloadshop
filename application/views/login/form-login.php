@@ -5,7 +5,7 @@
 <?php endif ?>
 <div class="form-login">
 	<div class="header-login">
-		<img src="<?php echo base_url('images/login.png') ?>">
+		<img src="<?php echo base_url('assets/images/login.png') ?>">
 		<h4>Login</h4>
 	</div>
 	<div class="content-login">

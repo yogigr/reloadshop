@@ -69,10 +69,10 @@
 						<td><?php echo $user['last_on']; ?></td>
 						<td style="text-align: center">
 							<a href="<?php echo site_url('users/edit/'.$user['id_user']); ?>">
-								<img src="<?php echo base_url('images/edit.png') ?>">
+								<img src="<?php echo base_url('assets/images/edit.png') ?>">
 							</a>
 							<a href="<?php echo site_url('users/delete/'.$user['id_user']); ?>" onclick="return confirm('yakin hapus data?');">
-								<img src="<?php echo base_url('images/hapus.png'); ?>">
+								<img src="<?php echo base_url('assets/images/hapus.png'); ?>">
 							</a>
 						</td>
 					</tr>

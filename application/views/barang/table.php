@@ -118,10 +118,10 @@
 						<td style="text-align: right;"><?php echo $barang['stok']; ?></td>
 						<td style="text-align: center">
 							<a href="<?php echo site_url('barang/edit/'.$barang['id_barang']); ?>">
-								<img src="<?php echo base_url('images/edit.png') ?>">
+								<img src="<?php echo base_url('assets/images/edit.png') ?>">
 							</a>
 							<a href="<?php echo site_url('barang/delete/'.$barang['id_barang']); ?>" onclick="return confirm('yakin hapus data?');">
-								<img src="<?php echo base_url('images/hapus.png'); ?>">
+								<img src="<?php echo base_url('assets/images/hapus.png'); ?>">
 							</a>
 						</td>
 					</tr>

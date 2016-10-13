@@ -12,6 +12,10 @@ class Msupplier extends CI_Model
 	{
 		
 	}
+	public function lihat_semua_data()
+	{
+		return $this->db->get('tsupplier')->result_array();
+	}
 
 	public function jumlah_data()
 	{

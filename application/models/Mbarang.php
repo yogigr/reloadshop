@@ -89,4 +89,18 @@ class Mbarang extends CI_Model
 		$this->db->where('id_barang', $id);
 		$this->db->delete('tbarang');
 	}
+
+	public function ambil_nama_barang($kode_barang)
+	{
+		$query = $this->db->query("select nama_barang from tbarang where kode_barang = '".$kode_barang."'");
+		return $query->row_array();
+	}
+
+	public function update_harga_beli($kode_barang, $data)
+	{
+		$this->db->where('kode_barang', $kode_barang);
+		$this->db->update('tbarang', $data);
+	} 
+	
+	
 }

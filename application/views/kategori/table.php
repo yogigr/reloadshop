@@ -37,10 +37,10 @@
 						<td><?php echo ucwords($kategori['nama_kategori']); ?></td>
 						<td style="text-align: center">
 							<a href="<?php echo site_url('kategori/edit/'.$kategori['id_kategori']); ?>">
-								<img src="<?php echo base_url('images/edit.png') ?>">
+								<img src="<?php echo base_url('assets/images/edit.png') ?>">
 							</a>
 							<a href="<?php echo site_url('kategori/delete/'.$kategori['id_kategori']); ?>" onclick="return confirm('yakin hapus data?');">
-								<img src="<?php echo base_url('images/hapus.png'); ?>">
+								<img src="<?php echo base_url('assets/images/hapus.png'); ?>">
 							</a>
 						</td>
 					</tr>
